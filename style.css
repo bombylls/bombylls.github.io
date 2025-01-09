@@ -6,7 +6,7 @@ body {
     height:100%; 
     max-height:100%; 
     background: #3e5448;
-    font-family: "Poppins", fixedsys, System, monospace;
+    font-family: "Poppins", fixedsys, System, sans-serif;
     overflow-x: hidden;
     font-size: 16px;
     overflow: scroll;
@@ -59,7 +59,7 @@ p {
 
     .footer{
         color:white;
-        font-family: "Poppins", fixedsys, System, monospace;
+        font-family: "Poppins", fixedsys, System, sans-serif;
         font-size: 11px;
     }
 
@@ -300,7 +300,7 @@ p {
   }
   
   h1, h2, h3, h4, h5 {
-    font-family: "Poppins", fixedsys, System, monospace;
+    font-family: "Poppins", fixedsys, System, sans-serif;
     color: white;
   }
 
