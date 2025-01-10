@@ -43,6 +43,7 @@ p {
 
     .headercontainer{
         padding-top:2%;
+        padding-bottom: 2%;
         text-align: center;
         width: 100%;
         height: auto;
@@ -66,16 +67,21 @@ p {
             text-align:center;
           
     }
-    .columncontainer {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        gap: 1rem;
+    .flexcontainer {
+       display:flex;
+       flex-direction:row;
+       flex-wrap:wrap;
       }
 
-      .column {
-        color:white;
-      }
+.flexleft {
+    flex: 50%;
+    color:white;
+  }
+  
+  .flexright {
+    flex: 50%;
+    color:white;
+  }
 
       .gallerycontainer {
         text-align:center;
