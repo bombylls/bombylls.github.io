@@ -1,5 +1,6 @@
 body {
-    padding:calc(8px + 1.5625vw);
+    margin-left:10%;
+    margin-right:10%;
     height:100%; 
     max-height:100%; 
     background: #3e5448;
@@ -30,21 +31,21 @@ p {
 
     .logo{
         text-align:center;
-        max-width:50%;
+        max-width:40%;
         height: auto;
     }
 
     .logoline{
         text-align:center;
-        width:50%;
+        width:40%;
         height:2vw;
     }
 
     .headercontainer{
-        width: auto;
-        height: 100px;
+        padding-top:2%;
         text-align: center;
-        padding-bottom:2%;
+        width: 100%;
+        height: auto;
     }
 
     .footercontainer{
@@ -153,7 +154,7 @@ p {
 
     .games{
         width:12%;
-        height: 7vw;
+        height: 6vw;
         background-size: 100%;
         background-image: url('buttons/games.png');   
         display: inline-block; 
@@ -180,7 +181,7 @@ p {
 
     .about{
         width:12%;
-        height: 7vw;
+        height: 6vw;
         background-size: 100%;
         background-image: url('buttons/about.png');   
         display: inline-block; 
@@ -207,7 +208,7 @@ p {
 
     .blog{
         width:12%;
-        height: 7vw;
+        height: 6vw;
         background-size: 100%;
         background-image: url('buttons/blog.png');   
         display: inline-block; 
@@ -234,7 +235,7 @@ p {
 
     .art{
         width:12%;
-        height: 7vw;
+        height: 6vw;
         background-size: 100%;
         background-image: url('buttons/art.png');   
         display: inline-block; 
@@ -294,7 +295,7 @@ p {
 
   /*RESPONSIVE*/
 
-  @media (min-width: 900px) {
+  /*@media (min-width: 900px) {
     .columncontainer { grid-template-columns: repeat(2, 1fr); }
     .gallerycontainer { grid-template-columns: repeat(2, 1fr); }
     body{margin-left:20%; margin-right:20%;}
@@ -303,7 +304,7 @@ p {
     .art{width:12%; height: 4.5vw;}
     .about{width:12%; height: 4.5vw;}
     .blog{width:12%; height: 4.5vw; background-size:100%;}
-  }
+  }*/
 
 
 
