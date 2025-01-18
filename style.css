@@ -228,6 +228,7 @@ p {
   }
   .logo {
     max-width: 100%;
+    padding-top: none;
   }
   .buttoncontainer {
     max-width: 100%;
