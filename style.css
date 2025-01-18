@@ -1,307 +1,262 @@
 body {
-    margin-left:10%;
-    margin-right:10%;
-    height:100%; 
-    max-height:100%; 
-    background: #3e5448;
-    font-family: "Poppins", fixedsys, System, sans-serif;
-    overflow-x: hidden;
-    font-size: 16px;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    }
-    
-center {
-    text-align: center;
-    }
-    
-a {
-    color:white;
-    font-style: underline;
-    }
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100%;
+  max-height: 100%;
+  background: #3e5448;
+  font-family: "Poppins", fixedsys, System, sans-serif;
+  color: white;
+  overflow-x: hidden;
+  font-size: 16px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
 
-h1 {
-    color: white;
-    }
+center {
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-style: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: white;
+  font-family: "Poppins", fixedsys, System, sans-serif;
+}
 
 p {
-    color:white;
-    margin-right: auto;
-    }
+  color: white;
+  margin-right: auto;
+}
 
-    .logo{
-        text-align:center;
-        max-width:40%;
-        height: auto;
-    }
+.sitecontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-    .logoline{
-        text-align:center;
-        width:40%;
-        height:2vw;
-    }
+.buttoncontainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
-    .headercontainer{
-        padding-top:2%;
-        padding-bottom: 2%;
-        text-align: center;
-        width: 100%;
-        height: auto;
-    }
+.leftcolumn {
+  flex: 20%;
+}
 
-    .footercontainer{
-        padding-top: 5%;
-        width: auto;
-        height: 100px;
-        text-align: center;
-    }
+.rightcolumn {
+  flex: 80%;
+}
 
-    .footer{
-        color:white;
-        font-family: "Poppins", fixedsys, System, sans-serif;
-        font-size: 11px;
-    }
+.logocontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
 
-    .emptycontainer{
-            max-width: 1200px;
-            text-align:center;
-          
-    }
-    .flexcontainer {
-       display:flex;
-       flex-direction:row;
-       flex-wrap:wrap;
-      }
+.logoicon {
+  flex: 20%;
+  max-width: 150px;
+}
 
-.flexleft {
-    flex: 50%;
-    color:white;
-  }
-  
-  .flexright {
-    flex: 50%;
-    color:white;
-  }
+.logotext {
+  flex: 80%;
+  max-width: 400px;
+  padding-top: 2%;
+}
 
-      .gallerycontainer {
-        text-align:center;
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      }
+.logoline {
+  max-width: 300px;
+}
 
-      .gallery1 {
-        color:white;
-        padding: 0rem;
-        height: 22rem;
-      }
+.footercontainer {
+  padding-top: 5%;
+  width: auto;
+  height: 100px;
+  text-align: center;
+}
 
-      .gallery2 {
-        color:white;
-        padding: 0rem;
-        height: 12rem;
-      }
+.footer {
+  color: white;
+  font-family: "Poppins", fixedsys, System, sans-serif;
+  font-size: 11px;
+}
 
-      .aboutimage
-      {
-        width:80%;
-        height: auto;
-        text-align:center;
-        padding-left:5%;
-        padding-right:5%;
-      }
+.gallerycontainer {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
-      .galleryimage
-      {
-        max-width: 70%;
-        height: auto;
-      }  
+.gallery {
+  color: white;
+  padding: 0rem;
+  height: 12rem;
+}
+
+.galleryimage {
+  max-width: 70%;
+  height: auto;
+}
+
+/*button stylization*/
+.buttons {
+  flex: 70px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-20deg);
+}
+
+.home {
+  background-image: url("buttons/home.png");
+}
+
+.games {
+  background-image: url("buttons/games.png");
+}
+
+.art {
+  background-image: url("buttons/art.png");
+}
+
+.blog {
+  background-image: url("buttons/blog.png");
+}
+
+.about {
+  background-image: url("buttons/about.png");
+}
 
 /* button animations */
-    @keyframes home{
-        0%
-        {
-            background-image: url('buttons/home-2.png');  
-        }
-        100%
-        {
-            background-image: url('buttons/home.png');
-        }
-    }
+@keyframes home {
+  0% {
+    background-image: url("buttons/home-2.png");
+  }
+  100% {
+    background-image: url("buttons/home.png");
+  }
+}
 
-    .home{
-        width:12%;
-        height: 6vw;
-        background-size:100%;
-        background-image: url('buttons/home.png');  
-        display: inline-block; 
-        margin-left: 1%;
-    }
+@keyframes games {
+  0% {
+    background-image: url("buttons/games-2.png");
+  }
+  100% {
+    background-image: url("buttons/games.png");
+  }
+}
 
-    .home:hover
-    {
-        animation-name: home;
-        animation-duration: 0.2s;
-        animation-iteration-count: infinite;
-    }
+@keyframes art {
+  0% {
+    background-image: url("buttons/art-2.png");
+  }
+  100% {
+    background-image: url("buttons/art.png");
+  }
+}
 
-    @keyframes games{
-        0%
-        {
-            background-image: url('buttons/games-2.png');  
-        }
-        100%
-        {
-            background-image: url('buttons/games.png');
-        }
-    }
+@keyframes blog {
+  0% {
+    background-image: url("buttons/blog-2.png");
+  }
+  100% {
+    background-image: url("buttons/blog.png");
+  }
+}
 
-    .games{
-        width:12%;
-        height: 6vw;
-        background-size: 100%;
-        background-image: url('buttons/games.png');   
-        display: inline-block; 
-        margin-left: 1%;
-    }
+@keyframes about {
+  0% {
+    background-image: url("buttons/about-2.png");
+  }
+  100% {
+    background-image: url("buttons/about.png");
+  }
+}
 
-    .games:hover
-    {
-        animation-name: games;
-        animation-duration: 0.2s;
-        animation-iteration-count: infinite;
-    }
+.home:hover {
+  animation-name: home;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
 
-    @keyframes about{
-        0%
-        {
-            background-image: url('buttons/about-2.png');  
-        }
-        100%
-        {
-            background-image: url('buttons/about.png');
-        }
-    }
+.games:hover {
+  animation-name: games;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
 
-    .about{
-        width:12%;
-        height: 6vw;
-        background-size: 100%;
-        background-image: url('buttons/about.png');   
-        display: inline-block; 
-        margin-left: 1%;
-    }
+.art:hover {
+  animation-name: art;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
 
-    .about:hover
-    {
-        animation-name: about;
-        animation-duration: 0.2s;
-        animation-iteration-count: infinite;
-    }
+.blog:hover {
+  animation-name: blog;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
 
-    @keyframes blog{
-        0%
-        {
-            background-image: url('buttons/blog-2.png');  
-        }
-        100%
-        {
-            background-image: url('buttons/blog.png');
-        }
-    }
+.about:hover {
+  animation-name: about;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+/* ZONELETS */
 
-    .blog{
-        width:12%;
-        height: 6vw;
-        background-size: 100%;
-        background-image: url('buttons/blog.png');   
-        display: inline-block; 
-        margin-left: 1%;
-    }
-
-    .blog:hover
-    {
-        animation-name: blog;
-        animation-duration: 0.2s;
-        animation-iteration-count: infinite;
-    }
-
-    @keyframes art{
-        0%
-        {
-            background-image: url('buttons/art-2.png');  
-        }
-        100%
-        {
-            background-image: url('buttons/art.png');
-        }
-    }
-
-    .art{
-        width:12%;
-        height: 6vw;
-        background-size: 100%;
-        background-image: url('buttons/art.png');   
-        display: inline-block; 
-        margin-left: 1%;
-    }
-
-    .art:hover
-    {
-        animation-name: art;
-        animation-duration: 0.2s;
-        animation-iteration-count: infinite;
-    }
-
-    /* ZONELETS */
 /*#CONTAINER is the rectangle that contains everything but the background!*/
 #container {
-    color: white;
-  }
-  
-  #content {
-    padding: 0;
-  }
-    
+  color: white;
+}
+
+#content {
+  padding: 0;
+}
+
 /*POST LIST STYLE*/
 #postlistdiv ul {
-    font-size: 1.2em;
-    line-height: 200%;
-    padding: 0;
-    list-style-type: none;
-  }
-  #recentpostlistdiv ul {
-    font-size: 1.2em;
-    line-height: 200%;
-    padding: 0;
-    list-style-type: none;
-  }
-  .moreposts {
-    font-size: 0.8em;
-    margin-top: 0.2em;
-  }
-  
-  /*NEXT AND PREVIOUS LINKS STYLE*/
-  #nextprev {
-    text-align: center;
-    margin-top: 1.4em;
-  }
-  
-  /*DISQUS STYLE*/
-  #disqus_thread {
-    margin-top: 1.6em;
-  }
-  
-  h1, h2, h3, h4, h5 {
-    font-family: "Poppins", fixedsys, System, sans-serif;
-    color: white;
-  }
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+#recentpostlistdiv ul {
+  font-size: 1.2em;
+  padding: 0;
+  list-style-type: none;
+}
+.moreposts {
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
 
-  /*RESPONSIVE*/
+/*NEXT AND PREVIOUS LINKS STYLE*/
+#nextprev {
+  text-align: center;
+  margin-top: 1.4em;
+}
 
-  /*@media (min-width: 900px) {
+/*DISQUS STYLE*/
+#disqus_thread {
+  margin-top: 1.6em;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 600px) {
+}
+
+/*@media (min-width: 900px) {
     .columncontainer { grid-template-columns: repeat(2, 1fr); }
     .gallerycontainer { grid-template-columns: repeat(2, 1fr); }
     body{margin-left:20%; margin-right:20%;}
@@ -311,14 +266,3 @@ p {
     .about{width:12%; height: 4.5vw;}
     .blog{width:12%; height: 4.5vw; background-size:100%;}
   }*/
-
-
-
-    
-
-      
-
-
-
-  
- 
