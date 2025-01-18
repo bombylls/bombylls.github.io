@@ -38,26 +38,12 @@ p {
   margin-right: auto;
 }
 
-.sitecontainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.leftcolumn {
-  flex: 20%;
-}
-
-.rightcolumn {
-  flex: 80%;
-}
-
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 .image {
