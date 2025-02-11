@@ -32,6 +32,10 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
 
 let postsArray = [
   [
+    "posts/2025-02-10-thoughts-on-blue-velvet.html",
+    encodeURI("thoughts on blue velvet"),
+  ],
+  [
     "posts/2025-01-09-why-does-everyone-love-ttt.html",
     encodeURI("why does everyone love tomorrow, and tomorrow, and tomorrow?"),
   ],
