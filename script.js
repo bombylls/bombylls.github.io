@@ -78,9 +78,29 @@ if (url.includes("posts/")) {
 //'<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
 //'<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
 
+let headerHTML =
+  '<div><img class="logo" src="logo.png" /></div>' +
+  '<div class="buttoncontainer">' +
+  ' <a class="home buttons" href="https://bombylls.com"></a>' +
+  '<a class="games buttons" href="https://bombylls.com/games"></a>' +
+  '<a class="art buttons" href="https://bombylls.com/art"></a>' +
+  '<a class="blog buttons" href="https://bombylls.com/blog"></a>' +
+  '<a class="about buttons" href="https://bombylls.com/about"></a>' +
+  "</div>";
+
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
 //let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></p>";
+let footerHTML =
+  '<div class="footercontainer">' +
+  '<div class="footer">' +
+  "this website was handmade using html and css. find me on " +
+  '<a class="footer" href="https://bsky.app/profile/bombylls.com" target="_blank">bluesky</a> ' +
+  " and " +
+  '<a class="footer" href="https://bombylls.itch.io/" target="_blank">itch</a>.' +
+  "<br>" +
+  "email me at beewertheimer at gmail dot com" +
+  "</div>";
 
 //To do the following stuff, we want to know where we are in the posts array (if we're currently on a post page).
 let currentIndex = -1;
