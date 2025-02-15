@@ -83,8 +83,8 @@ let headerHTML =
   '<div class="buttoncontainer">' +
   ' <a class="home buttons" href="https://bombylls.com"></a>' +
   '<a class="games buttons" href="https://bombylls.com/games"></a>' +
-  '<a class="art buttons" href="https://bombylls.com/art"></a>' +
   '<a class="blog buttons" href="https://bombylls.com/blog"></a>' +
+  '<a class="art buttons" href="https://bombylls.com/art"></a>' +
   '<a class="about buttons" href="https://bombylls.com/about"></a>' +
   "</div>";
 
