@@ -51,7 +51,7 @@ p {
 }
 
 .image {
-  width: 70%;
+  width: 100%;
 }
 
 .footercontainer {
@@ -207,6 +207,11 @@ p {
   text-align: center;
 }
 
+.page-container {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 /* ZONELETS */
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
@@ -261,6 +266,10 @@ p {
   }
   .game-page-item {
     flex: 100%;
+  }
+  .page-container {
+    padding-left: 0%;
+    padding-right: 0%;
   }
 }
 
