@@ -44,9 +44,9 @@ p {
 
 .logo {
   text-align: center;
-  margin-left: 30%;
-  margin-right: 30%;
-  max-width: 40%;
+  margin: auto;
+  display: block;
+  max-width: 50%;
   padding-top: 2%;
 }
 
