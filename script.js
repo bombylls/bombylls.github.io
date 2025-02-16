@@ -85,8 +85,7 @@ let headerHTML =
   '<a class="games buttons" href="https://bombylls.com/games"></a>' +
   '<a class="blog buttons" href="https://bombylls.com/blog"></a>' +
   '<a class="art buttons" href="https://bombylls.com/art"></a>' +
-  '<a class="about buttons" href="https://bombylls.com/about"></a>' +
-  "</div>";
+  '<a class="about buttons" href="https://bombylls.com/about"></a></div>';
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
