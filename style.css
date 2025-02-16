@@ -220,6 +220,11 @@ p {
   margin-bottom: 2%;
 }
 
+.itch-container {
+  max-width: 100%;
+  text-align: center;
+}
+
 /* ZONELETS */
 
 /*#CONTAINER is the rectangle that contains everything but the background!*/
