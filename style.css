@@ -87,10 +87,6 @@ p {
   background-repeat: no-repeat;
 }
 
-.home {
-  background-image: url("buttons/home.png");
-}
-
 .games {
   background-image: url("buttons/games.png");
 }
@@ -108,14 +104,6 @@ p {
 }
 
 /* button animations */
-@keyframes home {
-  0% {
-    background-image: url("buttons/home-2.png");
-  }
-  100% {
-    background-image: url("buttons/home.png");
-  }
-}
 
 @keyframes games {
   0% {
@@ -151,12 +139,6 @@ p {
   100% {
     background-image: url("buttons/about.png");
   }
-}
-
-.home:hover {
-  animation-name: home;
-  animation-duration: 0.2s;
-  animation-iteration-count: infinite;
 }
 
 .games:hover {

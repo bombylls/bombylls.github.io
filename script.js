@@ -81,8 +81,7 @@ if (url.includes("posts/")) {
 let headerHTML =
   '<div><img class="logo" src="logo.png" /></div>' +
   '<div class="buttoncontainer">' +
-  ' <a class="home buttons" href="https://bombylls.com"></a>' +
-  '<a class="games buttons" href="https://bombylls.com/games"></a>' +
+  '<a class="games buttons" href="https://bombylls.com"></a>' +
   '<a class="blog buttons" href="https://bombylls.com/blog"></a>' +
   '<a class="art buttons" href="https://bombylls.com/art"></a>' +
   '<a class="about buttons" href="https://bombylls.com/about"></a></div>';
