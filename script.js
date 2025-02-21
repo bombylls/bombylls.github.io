@@ -79,12 +79,14 @@ if (url.includes("posts/")) {
 //'<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
 
 let headerHTML =
-  '<div><img class="logo" src="logo.png" /></div>' +
-  '<div class="buttoncontainer">' +
-  '<a class="games buttons" href="https://bombylls.com"></a>' +
-  '<a class="blog buttons" href="https://bombylls.com/blog"></a>' +
-  '<a class="art buttons" href="https://bombylls.com/art"></a>' +
-  '<a class="about buttons" href="https://bombylls.com/about"></a></div>';
+  '<div class="headercontainer">' +
+  '<img class="headerimage" src="logo.png"></img>' +
+  '<div class="headerbuttons">' +
+  '<a href="https://bombylls.com" style="text-decoration:none">  games  </a>' +
+  '<a href="https://bombylls.com/writing" style="text-decoration:none">  writing  </a>' +
+  '<a href="https://bombylls.com/about" style="text-decoration:none">  about  </a>' +
+  "</div>" +
+  "</div>";
 
 //Generate the Footer HTML, which uses the variables defined in the BASIC INFO section above to list info about the site.
 //Note: feel free to remove the references to Zonelets and Neocities! Just be careful not to delete any necessary HTML closing tags or other syntax.
