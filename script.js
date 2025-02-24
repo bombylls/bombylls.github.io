@@ -82,8 +82,10 @@ let headerHTML =
   '<div class="headercontainer">' +
   '<img class="headerimage" src="logo.png"></img>' +
   '<div class="headerbuttons">' +
-  '<a href="https://bombylls.com" style="text-decoration:none">  games  </a>' +
-  '<a href="https://bombylls.com/writing" style="text-decoration:none">  writing  </a>' +
+  '<a href="https://bombylls.com" style="text-decoration:none"> games </a>' +
+  "•" +
+  '<a href="https://bombylls.com/writing" style="text-decoration:none"> writing </a>' +
+  "•" +
   '<a href="https://bombylls.com/about" style="text-decoration:none">  about  </a>' +
   "</div>" +
   "</div>";
