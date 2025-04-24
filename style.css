@@ -4,7 +4,7 @@ margin-top: 2%;
   margin-right: 5%;
   height: 100%;
   max-height: 100%;
-  background: white;
+  background: #eedcbe;
   font-family: "Zilla Slab", fixedsys, System, sans-serif;
   font-weight: 400;
   color: black;
@@ -134,6 +134,7 @@ p {
   max-width: 100%;
   text-align: center;
 }
+
 
 .process-container {
   display: flex;
