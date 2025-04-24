@@ -78,6 +78,11 @@ if (url.includes("posts/")) {
 //'<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
 //'<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
 
+let fontselectionHTML = 
+'<link rel="preconnect" href="https://fonts.googleapis.com">' + 
+'<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' + 
+'<link href="https://fonts.googleapis.com/css2?family=Oldenburg&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">';
+
 let headerHTML =
   '<div class="headercontainer">' +
   '<img class="headerimage" src="logo.png"></img>' +
@@ -308,6 +313,9 @@ if (document.getElementById("recentpostlistdiv")) {
 }
 if (document.getElementById("header")) {
   document.getElementById("header").innerHTML = headerHTML;
+}
+if (document.getElementById("fontselection")) {
+  document.getElementById("fontselection").innerHTML = fontselectionHTML;
 }
 if (document.getElementById("blogTitleH1")) {
   document.getElementById("blogTitleH1").innerHTML = blogTitle;
