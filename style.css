@@ -1,6 +1,6 @@
 body {
   margin-left: 20%;
-  margin-right: 10%;
+  margin-right: 5%;
   height: 100%;
   max-height: 100%;
   background: white;
@@ -87,7 +87,7 @@ p {
 
 .footer {
   color: black;
-  font-family: "Scope One", fixedsys, System, sans-serif;
+  font-family: "Zilla Slab", fixedsys, System, sans-serif;
   font-size: 11px;
 }
 
