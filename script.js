@@ -85,7 +85,7 @@ let fontselectionHTML =
 
 let headerHTML =
   '<div class="headercontainer">' +
-  '<img class="headerimage" src="logo.png"></img>' +
+  '<a href="https://bombylls.com"><img class="headerimage" src="logo.png"></img></a>' +
   '<div class="headerbuttons">' +
   '<a href="https://bombylls.com" style="text-decoration:none"> games </a>' +
   '<br>' +
